@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
-			<div className="container col-md-6 col-sm-12 d-flex mt-4 mx-auto">
+			<div className="container mt-4 d-flex">
 				<Jumbotron />
 				<Card />
 				<Card />
