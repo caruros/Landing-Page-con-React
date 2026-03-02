@@ -4,27 +4,40 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
-import Card from "./Card";
+import Card from "./card";
 //create your first component
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="container">
+			<div className="container mt-3">
 				<Jumbotron />
-			
+
 			</div>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-3">
+					<div className="col-md-3 col-sm-10">
 						<Card />
 					</div>
-					<div className="col-md-3">
+					<div className="col-md-3 col-sm-10">
 						<Card /></div>
-					<div className="col-md-3">
+					<div className="col-md-3 col-sm-10">
 						<Card />
 					</div>
-					<div className="col-md-3">
+					<div className="col-md-3 col-sm-10">
+						<Card />
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-3 col-sm-10">
+						<Card />
+					</div>
+					<div className="col-md-3 col-sm-10">
+						<Card /></div>
+					<div className="col-md-3 col-sm-10">
+						<Card />
+					</div>
+					<div className="col-md-3 col-sm-10">
 						<Card />
 					</div>
 				</div>
