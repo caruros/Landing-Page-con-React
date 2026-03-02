@@ -8,7 +8,7 @@ import Card from "./Card";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div>
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
