@@ -9,7 +9,7 @@ import Footer from "./Footer";
 //create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div>
 			<Navbar />
 			<div className="container mt-3">
 				<Jumbotron />
