@@ -1,3 +1,5 @@
+/* al hacer pull durante el proceso del proyecto se cambiaba la mayuscula del llamado del archivo "Card" a "card" lo que daba error, por si acaso */
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
